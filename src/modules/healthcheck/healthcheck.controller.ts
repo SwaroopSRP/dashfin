@@ -1,5 +1,5 @@
 import prisma from "../../config/db.ts";
-import { asyncHandler } from "../../utils/asyncHandler.ts";
+import asyncHandler from "../../utils/asyncHandler.ts";
 import { success } from "../../utils/responses.ts";
 
 export const healthCheck = asyncHandler(async (_req: any, res: any) => {
