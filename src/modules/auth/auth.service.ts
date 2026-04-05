@@ -1,3 +1,4 @@
+import { Role } from "@prisma/client";
 import bcrypt from "bcrypt";
 import prisma from "../../config/db.ts";
 import { ApiError } from "../../utils/errors.ts";
@@ -16,6 +17,11 @@ export const registerUser = async (
         throw new ApiError("User already exists", 400);
     }
 
+    const userCount = await prisma.user.count({
+        where: { deleted: false },
+    });
+    console.log("User count BEFORE create:", userCount);
+
     const hashedPassword = await bcrypt.hash(password, 10);
 
     const user = await prisma.user.create({
@@ -23,7 +29,7 @@ export const registerUser = async (
             email,
             password: hashedPassword,
             name,
-            role: "VIEWER", // Default
+            role: userCount === 0 ? Role.ADMIN : Role.VIEWER,
         },
     });
 

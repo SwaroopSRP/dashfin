@@ -89,3 +89,17 @@
 [2026-04-05T16:35:50.056Z] [INFO] POST /api/v1/auth/login 200 - 197ms
 [2026-04-05T16:35:50.681Z] [INFO] POST /api/v1/auth/login 200 - 197ms
 [2026-04-05T16:35:51.092Z] [INFO] POST /api/v1/auth/login 429 - 1ms
+[2026-04-05T17:55:43.526Z] [INFO] POST /api/v1/auth/register 201 - 464ms
+[2026-04-05T17:59:18.505Z] [INFO] POST /api/v1/auth/register 201 - 480ms
+[2026-04-05T18:00:42.245Z] [INFO] POST /api/v1/auth/register 201 - 433ms
+[2026-04-05T18:01:11.166Z] [INFO] POST /api/v1/users 401 - 2ms
+[2026-04-05T18:01:18.517Z] [INFO] POST /api/v1/login 404 - 1ms
+[2026-04-05T18:01:33.130Z] [INFO] POST /api/v1/auth/login 200 - 203ms
+[2026-04-05T18:01:50.074Z] [INFO] POST /api/v1/users 401 - 1ms
+[2026-04-05T18:02:06.459Z] [INFO] POST /api/v1/users 401 - 0ms
+[2026-04-05T18:02:07.318Z] [INFO] POST /api/v1/users 401 - 1ms
+[2026-04-05T18:02:20.233Z] [INFO] POST /api/v1/auth/login 200 - 167ms
+[2026-04-05T18:02:42.057Z] [INFO] POST /api/v1/users 401 - 1ms
+[2026-04-05T18:02:47.632Z] [INFO] POST /api/v1/users 500 - 158ms
+[2026-04-05T18:03:14.630Z] [INFO] GET /api/v1/users 200 - 429ms
+[2026-04-05T18:03:34.769Z] [INFO] POST /api/v1/users 500 - 212ms
