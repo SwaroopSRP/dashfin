@@ -5,8 +5,12 @@ import path from "node:path";
 import apiRouter from "./api.routes.ts";
 import errorHandler from "./middleware/error.middleware.ts";
 import requestLogger from "./middleware/logger.middleware.ts";
+import { apiLimiter } from "./middleware/rateLimit.middleware.ts";
 
 const app = express();
+
+app.set("trust proxy", 1);
+
 export default app;
 
 // Middlewares
@@ -23,6 +27,7 @@ app.use(
     })
 );
 app.use(requestLogger);
+app.use("/api", apiLimiter);
 app.use("/api/v1", apiRouter);
 app.use(errorHandler);
 
