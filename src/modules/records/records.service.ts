@@ -1,6 +1,6 @@
+import { Prisma } from "@prisma/client";
 import { z } from "zod";
 import prisma from "../../config/db.ts";
-import { Prisma } from "../../generated/prisma/edge.js";
 import { ApiError } from "../../utils/errors.ts";
 import { createRecordSchema, getRecordsQuerySchema, updateRecordSchema } from "./records.schema.ts";
 
