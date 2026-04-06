@@ -6,6 +6,8 @@ Zorfin is a backend system for Zorvyn's finance dashboard application that handl
 
 **Repository:** <https://github.com/SwaroopSRP/zorfin>
 
+**Documentations:** <https://github.com/SwaroopSRP/zorfin/blob/main/docs/intro.md>
+
 ---
 
 ## 📌 Overview
