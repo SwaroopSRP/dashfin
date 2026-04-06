@@ -147,6 +147,83 @@ prisma/
 └── migrations/
 ```
 
+## 🚀 Setup & Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/SwaroopSRP/zorfin.git
+cd zorfin
+```
+
+---
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+### 3. Configure Environment Variables
+
+Create a `.env` file in the root directory:
+
+```bash
+cp .env.example .env
+```
+
+Update the following variables:
+
+```env
+NODE_ENV=development
+PORT=5001
+
+CORS_ORIGIN=*
+
+DATABASE_URL="postgresql://USER:PASSWORD@HOST:PORT/DATABASE"
+
+JWT_SECRET="your_jwt_secret_here"
+
+RATE_LIMIT_AUTH_WINDOW_MS=900000
+RATE_LIMIT_AUTH_MAX=50
+RATE_LIMIT_GENERAL_WINDOW_MS=60000
+RATE_LIMIT_GENERAL_MAX=100
+```
+
+---
+
+### 4. Setup Database
+
+```bash
+npx prisma migrate dev
+```
+
+---
+
+### 5. Run the Server
+
+```bash
+npm run dev
+```
+
+---
+
+### 📍 Access
+
+* API Base URL: `http://localhost:5001`
+* Versioned API: `/api/v1`
+
+---
+
+### 📝 Notes
+
+* Ensure PostgreSQL is running before migration
+* Use a strong `JWT_SECRET` in production
+* Restrict `CORS_ORIGIN` in production environments
+
+
 ---
 
 ## 5. Module Overview
