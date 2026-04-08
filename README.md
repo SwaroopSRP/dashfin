@@ -1,6 +1,6 @@
 # Zorfin 💹
 
-Zorfin is a backend system for Zorvyn's finance dashboard application that handles data management, analytics, and RBAC with scalability and modular architecture.
+Zorfin is a backend system for a finance dashboard application that handles data management, analytics, and RBAC with scalability and modular architecture.
 
 **Live API:** <https://zorfin-production.up.railway.app/>
 
@@ -19,8 +19,6 @@ Zorfin is a backend system for Zorvyn's finance dashboard application that handl
 * Role-based access control (RBAC)
 
 It is built as a **RESTful API** with a strong focus on **scalability, modular architecture, and clean backend design**.
-
-> This project was developed as part of an **assessment for Zorvyn’s Backend Intern position**.
 
 ---
 
