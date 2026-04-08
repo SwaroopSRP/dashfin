@@ -12,7 +12,7 @@ Zorfin is a backend system for a finance dashboard application that handles data
 
 ## 📌 Overview
 
-**Zorfin** is a modular backend system developed for **Zorvyn’s finance dashboard application**, designed to handle:
+**Zorfin** is a modular backend system developed for **Finance dashboard application**, designed to handle:
 
 * Data management
 * Analytics & insights
