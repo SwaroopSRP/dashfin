@@ -26,6 +26,10 @@
 | Records | PATCH /records/:id      | ✅     | ✅       | ❌      |
 | Records | DELETE /records/:id     | ✅     | ✅       | ❌      |
 | Records | DELETE /records/cleanup | ✅     | ❌       | ❌      |
+| Summary | GET /summary/overview   | ✅     | ✅       | ✅      |
+| Summary | GET /summary/category   | ✅     | ✅       | ✅      |
+| Summary | GET /summary/recent     | ✅     | ✅       | ❌      |
+| Summary | GET /summary/trends     | ✅     | ✅       | ✅      |
 | Health  | GET /health             | ✅     | ✅       | ✅      |
 
 ---
