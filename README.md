@@ -1,6 +1,6 @@
-# Zorfin 💹
+# Dashfin 💹
 
-Zorfin is a backend system for a finance dashboard application that handles data management, analytics, and RBAC with scalability and modular architecture.
+Dashfin is a backend system for a finance dashboard application that handles data management, analytics, and RBAC with scalability and modular architecture.
 
 **Live API:** <https://zorfin-production.up.railway.app/>
 
@@ -12,7 +12,7 @@ Zorfin is a backend system for a finance dashboard application that handles data
 
 ## 📌 Overview
 
-**Zorfin** is a modular backend system developed for **Finance dashboard application**, designed to handle:
+**Dashfin** is a modular backend system developed for **Finance dashboard application**, designed to handle:
 
 * Data management
 * Analytics & insights
