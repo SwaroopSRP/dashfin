@@ -1,10 +1,10 @@
-# Zorfin API Documentation
+# Dashfin API Documentation
 
 ## 1. Introduction
 
-**Zorfin** is a modular, production-ready backend system designed for managing users, records, and analytical insights through a secure and scalable RESTful API.
+**Dashfin** is a modular, production-ready backend system designed for managing users, records, and analytical insights through a secure and scalable RESTful API.
 
-Built using **Node.js**, **Express**, and **TypeScript**, Zorfin follows modern backend design principles with a strong emphasis on **modularity, security, and maintainability**. It integrates **PostgreSQL** via **Prisma ORM** for efficient and type-safe database operations.
+Built using **Node.js**, **Express**, and **TypeScript**, Dashfin follows modern backend design principles with a strong emphasis on **modularity, security, and maintainability**. It integrates **PostgreSQL** via **Prisma ORM** for efficient and type-safe database operations.
 
 The system is structured to support real-world application needs such as **role-based access control (RBAC)**, **data analytics**, and **secure authentication**, making it suitable for scalable SaaS or dashboard-driven platforms.
 
@@ -72,7 +72,7 @@ The system is structured to support real-world application needs such as **role-
 
 ## 3. Architecture Overview
 
-Zorfin follows a **layered architecture pattern**:
+Dashfin follows a **layered architecture pattern**:
 
 ```text
 Request → Route → Controller → Service → Database
@@ -152,8 +152,8 @@ prisma/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/SwaroopSRP/zorfin.git
-cd zorfin
+git clone https://github.com/SwaroopSRP/dashfin.git
+cd dashfin
 ```
 
 ---
