@@ -2,11 +2,11 @@
 
 Dashfin is a backend system for a finance dashboard application that handles data management, analytics, and RBAC with scalability and modular architecture.
 
-**Live API:** <https://zorfin-production.up.railway.app/>
+**Live API:** <https://dashfin.up.railway.app/>
 
-**Repository:** <https://github.com/SwaroopSRP/zorfin>
+**Repository:** <https://github.com/SwaroopSRP/dashfin>
 
-**Documentations:** <https://github.com/SwaroopSRP/zorfin/blob/main/docs/intro.md>
+**Documentations:** <https://github.com/SwaroopSRP/dashfin/blob/main/docs/intro.md>
 
 ---
 
