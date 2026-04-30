@@ -1,7 +1,7 @@
 {
-    "name": "zorfin",
+    "name": "dashfin",
     "version": "1.0.0",
-    "description": "Finance dashboard backend for Zorvyn, with RBAC, data management, and analytics APIs",
+    "description": "Finance dashboard backend API system, with RBAC, data management, and analytics APIs",
     "private": true,
     "keywords": [
         "typescript",
@@ -16,7 +16,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/SwaroopSRP/zorfin"
+        "url": "https://github.com/SwaroopSRP/dashfin"
     },
     "license": "ISC",
     "author": "SwaroopSRP",
