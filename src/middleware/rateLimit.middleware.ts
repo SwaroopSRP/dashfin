@@ -1,6 +1,6 @@
 import * as rateLimit from "express-rate-limit";
 
-const rl = rateLimit.default;
+const rl: typeof import("express-rate-limit").default = rateLimit.default;
 
 export const authLimiter = rl({
     windowMs: 15 * 60 * 1000,
