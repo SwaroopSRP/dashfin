@@ -2,7 +2,7 @@
 
 Dashfin is a backend system for a finance dashboard application that handles data management, analytics, and RBAC with scalability and modular architecture.
 
-**Live API:** <https://dashfin.up.railway.app/>
+**Live API:** <https://dashfin.up.railway.app/> OR <https://dashfin-three.vercel.app/>
 
 **Repository:** <https://github.com/SwaroopSRP/dashfin>
 
