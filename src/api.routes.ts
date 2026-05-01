@@ -7,6 +7,7 @@ import userRouter from "./modules/user/user.routes.ts";
 
 const apiRouter = Router();
 
+// v1 Routes
 apiRouter.use("/users", userRouter);
 apiRouter.use("/health", healthCheckRouter);
 apiRouter.use("/records", recordRouter);
