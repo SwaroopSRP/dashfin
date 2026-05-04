@@ -108,14 +108,14 @@ src/
 │   ├── records/
 │   ├── summary/
 │   └── healthcheck/
-
+|
 ├── middleware/
 ├── utils/
 ├── config/
 └── types/
-
-prisma/
-└── schema.prisma
+|
+└── prisma/
+    └── schema.prisma
 ```
 
 ---
