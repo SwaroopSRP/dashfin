@@ -31,7 +31,7 @@ It is built as a **RESTful API** with a strong focus on **scalability, modular a
 * **ORM:** Prisma
 * **Validation:** Zod
 * **Authentication:** JWT
-* **Deployment:** Railway
+* **Deployment:** Vercel (prev. Railway)
 
 ---
 
